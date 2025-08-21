@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background: linear-gradient(to bottom, #cfccd6, #dfdcd1);
+    font-family: 'Sacramento', cursive;
+  }
+  
+  .container {
+    position: relative;
+    padding: 60px 80px;
+  }
+  
+  .title {
+    white-space: nowrap;
+    display: flex;
+    align-items: flex-end;
+  }
+  .title a.b {
+    text-decoration: none;   
+    color: rgba(153, 170, 255, 0.4);;          
+  }
+  
+  
+  .b {
+    font-size: 250px;
+    color: rgba(153, 170, 255, 0.4);
+    display: inline-block;
+    animation: floatB 2.5s ease-in-out infinite;
+    line-height: 1;
+  }
+  
+  .anu {
+    font-size: 160px;
+    color: rgba(153, 170, 255, 0.4);
+    display: inline-block;
+    margin-left: -20px;
+    line-height: 1;
+    padding-bottom: 28px;
+  }
+  
+  .dotted-line {
+    width: 90%;
+    border-top: 3px dotted black;
+    margin-top: -20px;
+  }
+  
+  .page-number {
+    position: absolute;
+    bottom: 20px;
+    right: 40px;
+    font-size: 22px;
+    color: rgba(153, 170, 255, 0.2);
+    font-weight: bold;
+  }
+  
+  @keyframes floatB {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+  }
